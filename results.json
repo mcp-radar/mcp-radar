@@ -1,0 +1,315 @@
+{
+  "host": "127.0.0.1",
+  "candidate_ports": 34,
+  "reachable_tcp_ports": 31,
+  "findings": [
+    {
+      "host": "127.0.0.1",
+      "port": 51814,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 99,
+      "status": 200,
+      "evidence": [
+        "initialize returned JSON-RPC result",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted",
+        "follow-up JSON-RPC exchange worked"
+      ],
+      "server_info": {
+        "name": "toolhive-mcp",
+        "version": "v0.9.4"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "mcp-session-e85a1f3f-27f4-4171-8695-2da4e8280f2d"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 8080,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "smellslikeai_mcp",
+        "version": "3.0.2"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "0e64ecdae9ec48728b333f6d6c23b8af"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 8888,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "smellslikeai_mcp",
+        "version": "3.0.2"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "e7ec02797010498399fffd413d0e9532"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18558,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "mcp-optimizer",
+        "version": "1.26.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "e8bb92e1bde04a77b4d414a9605ca8d1"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 19366,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "secure-filesystem-server",
+        "version": "0.2.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "cc58519c-e332-4e2e-b9c8-efa9b6d3f131"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 22715,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "secure-filesystem-server",
+        "version": "0.2.0"
+      },
+      "protocol_version": "2024-11-05",
+      "session_id": "75c4a634-5251-470a-aa57-f297d2d7606f"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 33210,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "secure-filesystem-server",
+        "version": "0.2.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "f6f18492-9371-4c7f-a752-3490a97957b8"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 44260,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "fetch-server",
+        "version": "1.0.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "Y52NA3R6XWARRG4EZNFNLC2BMY"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 47456,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "fetch-server",
+        "version": "1.0.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "2ZIOKFAIAYRWHTTPOB4ETSAFVP"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 47919,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "mcp-optimizer",
+        "version": "1.26.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "78b4a5c744404abea3df74bd5bc24bda"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 50233,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "fetch-server",
+        "version": "1.0.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "VIW2V2XBSQ5YEPJLUCVKMYV643"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 50947,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "fetch-server",
+        "version": "1.0.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "GR6LND5NYK6QD5ZHYP3SGMHE6I"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 61956,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "mcp-optimizer",
+        "version": "1.26.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "c0a85c3c092e4183a0218834e8439852"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 64187,
+      "scheme": "http",
+      "path": "/mcp",
+      "kind": "mcp-streamable-http",
+      "confidence": "high",
+      "score": 98,
+      "status": 200,
+      "evidence": [
+        "POST initialize upgraded to SSE stream",
+        "SSE event carried initialize result (message)",
+        "server returned Mcp-Session-Id",
+        "initialized notification accepted"
+      ],
+      "server_info": {
+        "name": "mcp-optimizer",
+        "version": "1.26.0"
+      },
+      "protocol_version": "2025-03-26",
+      "session_id": "5782e3d90316421d97bcf39d05e22791"
+    }
+  ]
+}
